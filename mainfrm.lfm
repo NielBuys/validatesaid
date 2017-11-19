@@ -1,0 +1,29 @@
+object MainForm: TMainForm
+  Left = 518
+  Height = 117
+  Top = 147
+  Width = 275
+  Caption = 'MainForm'
+  ClientHeight = 117
+  ClientWidth = 275
+  LCLVersion = '1.6.4.0'
+  object IDEdit: TEdit
+    Left = 32
+    Height = 27
+    Top = 24
+    Width = 224
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    TextHint = 'Type in SA ID'
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 25
+    Top = 64
+    Width = 112
+    Caption = 'Validate ID'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+end
